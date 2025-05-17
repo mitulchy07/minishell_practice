@@ -6,7 +6,7 @@
 /*   By: mshariar <mshariar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/11 02:34:56 by mshariar          #+#    #+#             */
-/*   Updated: 2025/05/13 21:26:16 by mshariar         ###   ########.fr       */
+/*   Updated: 2025/05/17 20:38:02 by mshariar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -111,7 +111,7 @@ char *get_env_value(t_env *env_list, const char *key)
 }
 
 
-/*
+
 t_env *init_env(char **envp)
 {
 	t_env *env_list;
@@ -143,4 +143,3 @@ t_env *init_env(char **envp)
 	}
 	return (env_list);
 }
-*
